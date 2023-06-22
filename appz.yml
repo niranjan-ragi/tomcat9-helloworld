@@ -13,6 +13,7 @@ build:
 deploy:
   context: sranjan1995/DEV
   session_affinity: ClientIP
+  session_affinity_timeout: 7800
   replicas: 1
   port: 
    - 8080
