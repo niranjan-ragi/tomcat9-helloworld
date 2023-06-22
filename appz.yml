@@ -12,7 +12,7 @@ build:
 
 deploy:
   context: sranjan1995/DEV
-  replicas: 2
+  replicas: 1
   port: 
    - 8080
 
@@ -25,4 +25,4 @@ properties:
   next: 15
   download: false
   random : true
-  nano : 85
+  nano : 86
