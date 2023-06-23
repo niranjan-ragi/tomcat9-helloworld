@@ -12,7 +12,6 @@ build:
 
 deploy:
   context: sranjan1995/DEV
-  session_affinity: ClientIP
   replicas: 1
   port: 
    - 8080
@@ -26,4 +25,4 @@ properties:
   next: 15
   download: false
   random : true
-  nano : 87
+  nano : 88
