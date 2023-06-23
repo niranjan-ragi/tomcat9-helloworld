@@ -13,6 +13,7 @@ build:
 deploy:
   context: sranjan1995/DEV
   replicas: 1
+  session_affinity: ClientIP
   port: 
    - 8080
 
