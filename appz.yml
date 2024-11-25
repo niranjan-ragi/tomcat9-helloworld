@@ -11,7 +11,7 @@ build:
   image_template: tomcat9
 
 deploy:
-  context: cloudorbit/DEV
+  context: cloudorbit/PROD
   replicas: 1
   session_affinity: ClientIP
   port: 
